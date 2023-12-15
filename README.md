@@ -49,6 +49,7 @@ Listar todos os eventos: GET http://localhost:8080/api/eventos
 Obter um evento específico: GET http://localhost:8080/api/eventos/{id}
 
 Criar um novo evento: POST http://localhost:8080/api/eventos (com o corpo da requisição contendo os dados do evento)
+Exemplo:
 ![post](https://github.com/EronilsonHolanda/WEB2-N2/assets/127308928/f11e7ffb-551e-480c-a243-b00d98f50bdd)
 
 Atualizar um evento existente: PUT http://localhost:8080/api/eventos/{id} (com o corpo da requisição contendo os dados atualizados do evento)
