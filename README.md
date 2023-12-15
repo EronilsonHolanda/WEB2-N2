@@ -8,7 +8,7 @@ Este é um projeto de eventos que é composto por frontend e backend desenvolvid
 
 Para executar este projeto, você precisará iniciar um banco de dados MySQL e executar o seguinte script:
 
-```sql
+~~~sql
 CREATE USER 'eron'@localhost IDENTIFIED BY 'eron' ;
 
 CREATE DATABASE evento ;
@@ -35,3 +35,9 @@ data varchar ( 150 ) not null ,
 
 primary key ( id )
 ) ;
+~~~
+
+# Diagrama de Componentes
+
+![Diagrama de Componentes](https://github.com/EronilsonHolanda/WEB2-N2/assets/127308928/2103d3f2-9843-48dd-b5e4-4d9561df420b)
+
