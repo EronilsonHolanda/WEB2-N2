@@ -54,4 +54,35 @@ primary key ( id )
 
 - Excluir um evento: DELETE http://localhost:8080/api/eventos/{id}
 
+# Front-End:
+
+- A Interface do Usuário proporciona uma experiência amigável para interação com o sistema de gerenciamento de eventos.
+  
+- Permite aos usuários criar novos eventos, visualizar uma lista de eventos existentes e acessar formulários para editar ou excluir eventos específicos.
+  
+- Utiliza páginas Thymeleaf para renderização dinâmica do conteúdo HTML, tornando a interface responsiva e interativa.
+
+# Back-End:
+
+- A Lógica de Negócios, gerenciada pelo Back-End, implementa operações CRUD para manipular eventos.
+  
+- O EventoController gerencia as interações com a interface web, enquanto o EventoRestController fornece uma API RESTful para operações externas.
+  
+- A segurança básica é implementada com um usuário "admin" e senhas criptografadas.
+  
+- A persistência de dados é realizada por meio do Spring Data JPA, permitindo uma integração fácil com o banco de dados MySQL.
+
+# Banco de Dados:
+
+- O Banco de Dados armazena e recupera dados relacionados a eventos, proporcionando uma fonte confiável de informações persistidas.
+  
+- A estrutura do banco de dados é gerenciada automaticamente pelo Spring Boot, garantindo consistência e integridade dos dados.
+
+# API RESTful:
+
+- O EventoRestController expõe uma API RESTful para interação externa com os recursos de eventos.
+  
+- A API permite a listagem de todos os eventos, obtenção de detalhes de eventos específicos, criação de novos eventos, atualização de informações de eventos existentes e exclusão de eventos.
+  
+- As respostas da API são formatadas em JSON, seguindo boas práticas de design RESTful.
 
